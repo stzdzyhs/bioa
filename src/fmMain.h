@@ -25,13 +25,6 @@ __published:	// IDE-managed Components
 	TToolButton *ToolButton5;
 	TToolButton *ToolButton6;
 	TPanel *Panel1;
-	TPageControl *PageControl1;
-	TTabSheet *TabSheet1;
-	TLabel *Label1;
-	TLabeledEdit *LabeledEdit1;
-	TComboBox *ComboBox1;
-	TTabSheet *TabSheet2;
-	TTabSheet *TabSheet3;
 	TBitBtn *BitBtn1;
 	TBitBtn *BitBtn2;
 	TBitBtn *BitBtn3;
@@ -39,8 +32,31 @@ __published:	// IDE-managed Components
 	TBitBtn *BitBtn5;
 	TBitBtn *BitBtn6;
 	TStatusBar *StatusBar1;
-	TComboBox *ComboBox2;
+	TPageControl *pcWorkArea;
+	TTabSheet *TabSheet4;
+	TTabSheet *TabSheet5;
+	TPageControl *PageControl1;
+	TTabSheet *TabSheet1;
+	TLabel *Label1;
 	TLabel *Label2;
+	TLabeledEdit *LabeledEdit1;
+	TComboBox *ComboBox1;
+	TComboBox *ComboBox2;
+	TTabSheet *TabSheet2;
+	TTabSheet *TabSheet3;
+	TTabSheet *TabSheet6;
+	TTabSheet *TabSheet7;
+	TTabSheet *TabSheet8;
+	TTabSheet *TabSheet9;
+	TLabel *Label3;
+	TLabel *Label4;
+	void __fastcall ToolButton6Click(TObject *Sender);
+	void __fastcall FormCreate(TObject *Sender);
+	void __fastcall ToolButton1Click(TObject *Sender);
+	void __fastcall ToolButton2Click(TObject *Sender);
+	void __fastcall ToolButton3Click(TObject *Sender);
+	void __fastcall ToolButton4Click(TObject *Sender);
+	void __fastcall ToolButton5Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm10(TComponent* Owner);

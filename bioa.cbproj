@@ -23,6 +23,7 @@
 			<Base>true</Base>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
+			<OutputExt>exe</OutputExt>
 			<ILINK_LibraryPath>src\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<IncludePath>src\;$(IncludePath)</IncludePath>
 			<PackageImports>rtl.bpi;dbexpress.bpi;DataSnapProviderClient.bpi;DbxCommonDriver.bpi;vclx.bpi;vcl.bpi;vclactnband.bpi;vclimg.bpi;xmlrtl.bpi;DbxClientDriver.bpi;vclie.bpi;inet.bpi;IndyProtocols.bpi;inetdbbde.bpi;inetdbxpress.bpi;DataSnapIndy10ServerTransport.bpi;DataSnapClient.bpi;vcldb.bpi;dbrtl.bpi;dbxcds.bpi;dsnap.bpi;inetdb.bpi;IndySystem.bpi;IndyCore.bpi;bdertl.bpi;DataSnapServer.bpi;bcbie.bpi;bcbsmp.bpi;VclSmp.bpi;svnui.bpi;svn.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vcldbx.bpi;vcltouch.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;intrawebdb_110_150.bpi;Intraweb_110_150.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;tiledpkg.bpi;bcbshlctrls.bpi;pngcompd.bpi;pngcomp.bpi;dsnapcon.bpi;AzureCloud.bpi;L208_r140.bpi;marquee1.bpi;ledpkg.bpi;CodeSiteExpressVcl.bpi;Rave90VCL.bpi;RaizeComponentsVcl.bpi;RaizeComponentsVclDb.bpi;myPack.bpi</PackageImports>
@@ -34,7 +35,6 @@
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE</DCC_UnitAlias>
 			<DynamicRTL>true</DynamicRTL>
-			<UsePackages>true</UsePackages>
 			<IntermediateOutputDir>.\$(Config)\$(Platform)</IntermediateOutputDir>
 			<FinalOutputDir>.\$(Config)\$(Platform)</FinalOutputDir>
 			<BCC_wpar>false</BCC_wpar>
@@ -42,6 +42,7 @@
 			<BCC_ExtendedErrorInfo>true</BCC_ExtendedErrorInfo>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DynamicRTL>false</DynamicRTL>
 			<BCC_OptimizeForSpeed>false</BCC_OptimizeForSpeed>
 			<BCC_DisableOptimizations>true</BCC_DisableOptimizations>
 			<DCC_Optimize>false</DCC_Optimize>
@@ -125,8 +126,8 @@
 						<VersionInfoKeys Name="Comments"/>
 					</VersionInfoKeys>
 					<Excluded_Packages>
-						<Excluded_Packages Name="$(BDSBIN)\dclwebsnap150.bpl">Embarcadero WebSnap Components</Excluded_Packages>
 						<Excluded_Packages Name="$(BDSBIN)\dclwbm150.bpl">Embarcadero InternetExpress Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dclwebsnap150.bpl">Embarcadero WebSnap Components</Excluded_Packages>
 						<Excluded_Packages Name="$(BDSBIN)\dclsoap150.bpl">Embarcadero SOAP Components</Excluded_Packages>
 						<Excluded_Packages Name="$(BDSBIN)\dclDBXDriversEnt150.bpl">Embarcadero Enterprise Driver Components</Excluded_Packages>
 						<Excluded_Packages Name="$(BDSBIN)\bcboffice2k150.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>

@@ -4,6 +4,7 @@
 #pragma hdrstop
 
 #include "fmMain.h"
+#include "debugout.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -68,7 +69,4 @@ void __fastcall TForm10::ToolButton5Click(TObject *Sender)
 	pcWorkArea->ActivePageIndex = 4;
 }
 //---------------------------------------------------------------------------
-
-
-
 

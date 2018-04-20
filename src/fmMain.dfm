@@ -18,7 +18,7 @@ object Form10: TForm10
     Left = 0
     Top = 0
     Width = 931
-    Height = 89
+    Height = 85
     ButtonHeight = 84
     ButtonWidth = 71
     Caption = 'ToolBar1'
@@ -26,7 +26,6 @@ object Form10: TForm10
     Images = ImageList1
     ShowCaptions = True
     TabOrder = 0
-    ExplicitTop = -1
     object ToolButton1: TToolButton
       Left = 0
       Top = 0
@@ -72,9 +71,9 @@ object Form10: TForm10
   end
   object Panel1: TPanel
     Left = 820
-    Top = 89
+    Top = 85
     Width = 111
-    Height = 540
+    Height = 544
     Align = alRight
     BevelOuter = bvNone
     BorderWidth = 5
@@ -164,32 +163,25 @@ object Form10: TForm10
   end
   object pcWorkArea: TPageControl
     Left = 0
-    Top = 89
+    Top = 85
     Width = 820
-    Height = 540
+    Height = 544
     ActivePage = TabSheet4
     Align = alClient
     Style = tsFlatButtons
     TabOrder = 3
     object TabSheet4: TTabSheet
-      BorderWidth = 5
       Caption = 'TabSheet4'
       object PageControl1: TPageControl
         Left = 0
         Top = 0
-        Width = 802
-        Height = 499
+        Width = 812
+        Height = 513
         ActivePage = TabSheet1
         Align = alClient
         TabOrder = 0
-        ExplicitLeft = 3
-        ExplicitTop = -3
         object TabSheet1: TTabSheet
           Caption = #26679#26412#30331#35760
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 812
-          ExplicitHeight = 512
           object Label1: TLabel
             Left = 184
             Top = 11
@@ -272,8 +264,6 @@ object Form10: TForm10
     object TabSheet5: TTabSheet
       Caption = 'TabSheet5'
       ImageIndex = 1
-      ExplicitWidth = 281
-      ExplicitHeight = 162
       object Label3: TLabel
         Left = 88
         Top = 40

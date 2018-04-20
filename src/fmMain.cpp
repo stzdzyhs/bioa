@@ -21,12 +21,23 @@ void __fastcall TForm10::ToolButton6Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
+#include<windows.h>
+#include <tchar.h>
+#include <stdio.h>
+
 void __fastcall TForm10::FormCreate(TObject *Sender)
 {
 	for(int i=0;i<pcWorkArea->PageCount;i++) {
 		pcWorkArea->Pages[i]->TabVisible=false;
 	}
 	pcWorkArea->ActivePageIndex = 0;
+
+	/*
+	TCHAR sOut[1000];
+	_stprintf_s(sOut, 1000, _T("hahah"));
+	ShowMessage(sOut);
+	*/
+	ShowMessage("TTTTTTTTTTTTT");
 }
 //---------------------------------------------------------------------------
 
@@ -59,5 +70,4 @@ void __fastcall TForm10::ToolButton5Click(TObject *Sender)
 	pcWorkArea->ActivePageIndex = 4;
 }
 //---------------------------------------------------------------------------
-
 

@@ -37,6 +37,7 @@ void __fastcall TForm10::FormCreate(TObject *Sender)
 	_stprintf_s(sOut, 1000, _T("hahah"));
 	ShowMessage(sOut);
 	*/
+	ShowMessage("TTTTTTTTTTTTT");
 }
 //---------------------------------------------------------------------------
 

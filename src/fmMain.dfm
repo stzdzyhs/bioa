@@ -172,10 +172,6 @@ object Form10: TForm10
     TabOrder = 3
     object TabSheet4: TTabSheet
       Caption = 'TabSheet4'
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object PageControl1: TPageControl
         Left = 0
         Top = 0
@@ -186,10 +182,6 @@ object Form10: TForm10
         TabOrder = 0
         object TabSheet1: TTabSheet
           Caption = #26679#26412#30331#35760
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 0
-          ExplicitHeight = 0
           object Label1: TLabel
             Left = 184
             Top = 11
@@ -262,28 +254,16 @@ object Form10: TForm10
         object TabSheet2: TTabSheet
           Caption = #26679#26412#32467#26524
           ImageIndex = 1
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 0
-          ExplicitHeight = 0
         end
         object TabSheet3: TTabSheet
           Caption = #27979#35797#32467#26524
           ImageIndex = 2
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 0
-          ExplicitHeight = 0
         end
       end
     end
     object TabSheet5: TTabSheet
       Caption = 'TabSheet5'
       ImageIndex = 1
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object Label3: TLabel
         Left = 88
         Top = 40
@@ -295,10 +275,6 @@ object Form10: TForm10
     object TabSheet6: TTabSheet
       Caption = 'TabSheet6'
       ImageIndex = 2
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object Label4: TLabel
         Left = 88
         Top = 40
@@ -310,26 +286,14 @@ object Form10: TForm10
     object TabSheet7: TTabSheet
       Caption = 'TabSheet7'
       ImageIndex = 3
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
     end
     object TabSheet8: TTabSheet
       Caption = 'TabSheet8'
       ImageIndex = 4
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
     end
     object TabSheet9: TTabSheet
       Caption = 'TabSheet9'
       ImageIndex = 5
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
     end
   end
   object ImageList1: TImageList

@@ -26,7 +26,6 @@ object Form10: TForm10
     Images = ImageList1
     ShowCaptions = True
     TabOrder = 0
-    ExplicitTop = -1
     object ToolButton1: TToolButton
       Left = 0
       Top = 0
@@ -182,14 +181,8 @@ object Form10: TForm10
         ActivePage = TabSheet1
         Align = alClient
         TabOrder = 0
-        ExplicitLeft = 3
-        ExplicitTop = -3
         object TabSheet1: TTabSheet
           Caption = #26679#26412#30331#35760
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 812
-          ExplicitHeight = 512
           object Label1: TLabel
             Left = 184
             Top = 11
@@ -272,8 +265,6 @@ object Form10: TForm10
     object TabSheet5: TTabSheet
       Caption = 'TabSheet5'
       ImageIndex = 1
-      ExplicitWidth = 281
-      ExplicitHeight = 162
       object Label3: TLabel
         Left = 88
         Top = 40

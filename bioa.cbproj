@@ -70,9 +70,28 @@
 			<ResFiles Include="bioa.res">
 				<BuildOrder>1</BuildOrder>
 			</ResFiles>
+			<CppCompile Include="clientsockt.cpp">
+				<DependentOn>clientsockt.h</DependentOn>
+				<BuildOrder>4</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="debugout.cpp">
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
 			<None Include="debugout.h">
 				<BuildOrder>3</BuildOrder>
 			</None>
+			<CppCompile Include="gettime.cpp">
+				<DependentOn>gettime.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="handlethread.cpp">
+				<DependentOn>handlethread.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="process.cpp">
+				<DependentOn>process.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="src\fmMain.cpp">
 				<Form>Form10</Form>
 				<DependentOn>src\fmMain.h</DependentOn>

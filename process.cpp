@@ -49,7 +49,12 @@ void testinitial()
 	{ TestRow tr={11, 0,1, 0,0,1,0,0, 1, 0, 3,20,2}; g_test_row_array.push(tr);}
 
 }
+/*****************************************************************************
+按照项目优先级--测试类型——测试优先级来排序
 
+
+
+***************************************************************************/
 bool comp(const TestRow &a,const TestRow &b)
 {
 	if (g_test_array.test_config_array[a.test_id].priority != g_test_array.test_config_array[b.test_id].priority)

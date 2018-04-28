@@ -5,6 +5,7 @@
 
 #include "fmMain.h"
 #include "debugout.h"
+#include "LogFile.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -21,9 +22,11 @@ void __fastcall TForm10::ToolButton6Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-#include<windows.h>
+#include <windows.h>
 #include <tchar.h>
 #include <stdio.h>
+
+LogFile log("c:\\temp\\2018-04-28.log");
 
 void __fastcall TForm10::FormCreate(TObject *Sender)
 {
@@ -37,7 +40,12 @@ void __fastcall TForm10::FormCreate(TObject *Sender)
 	_stprintf_s(sOut, 1000, _T("hahah"));
 	ShowMessage(sOut);
 	*/
-	ShowMessage("TTTTTTTTTTTTT");
+	//ShowMessage("TTTTTTTTTTTTT");
+
+	pcWorkArea->ActivePageIndex = 0;
+
+	log.Log("hello, log");
+	log.Log("hello, ÖÐÎÄ....abc");
 }
 //---------------------------------------------------------------------------
 
@@ -62,6 +70,8 @@ void __fastcall TForm10::ToolButton3Click(TObject *Sender)
 void __fastcall TForm10::ToolButton4Click(TObject *Sender)
 {
 	pcWorkArea->ActivePageIndex = 3;
+
+	TDateTime dt;
 }
 //---------------------------------------------------------------------------
 

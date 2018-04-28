@@ -25,8 +25,8 @@
 		<PropertyGroup Condition="'$(Base)'!=''">
 			<LinkPackageStatics>rtl.lib;vcl.lib</LinkPackageStatics>
 			<OutputExt>exe</OutputExt>
-			<ILINK_LibraryPath>src\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
-			<IncludePath>src\;$(IncludePath)</IncludePath>
+			<ILINK_LibraryPath>src\util\;src\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+			<IncludePath>src\util\;src\;$(IncludePath)</IncludePath>
 			<PackageImports>rtl.bpi;dbexpress.bpi;DataSnapProviderClient.bpi;DbxCommonDriver.bpi;vclx.bpi;vcl.bpi;vclactnband.bpi;vclimg.bpi;xmlrtl.bpi;DbxClientDriver.bpi;vclie.bpi;inet.bpi;IndyProtocols.bpi;inetdbbde.bpi;inetdbxpress.bpi;DataSnapIndy10ServerTransport.bpi;DataSnapClient.bpi;vcldb.bpi;dbrtl.bpi;dbxcds.bpi;dsnap.bpi;inetdb.bpi;IndySystem.bpi;IndyCore.bpi;bdertl.bpi;DataSnapServer.bpi;bcbie.bpi;bcbsmp.bpi;VclSmp.bpi;svnui.bpi;svn.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vcldbx.bpi;vcltouch.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;intrawebdb_110_150.bpi;Intraweb_110_150.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;tiledpkg.bpi;bcbshlctrls.bpi;pngcompd.bpi;pngcomp.bpi;dsnapcon.bpi;AzureCloud.bpi;L208_r140.bpi;marquee1.bpi;ledpkg.bpi;CodeSiteExpressVcl.bpi;Rave90VCL.bpi;RaizeComponentsVcl.bpi;RaizeComponentsVclDb.bpi;myPack.bpi</PackageImports>
 			<_TCHARMapping>wchar_t</_TCHARMapping>
 			<ProjectType>CppVCLApplication</ProjectType>
@@ -97,6 +97,10 @@
 				<DependentOn>src\fmMain.h</DependentOn>
 				<BuildOrder>2</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="src\util\LogFile.cpp">
+				<DependentOn>src\util\LogFile.h</DependentOn>
+				<BuildOrder>9</BuildOrder>
+			</CppCompile>
 			<FormResources Include="src\fmMain.dfm"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
@@ -111,7 +115,7 @@
 			</BuildConfiguration>
 		</ItemGroup>
 		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')" Project="$(BDS)\Bin\CodeGear.Cpp.Targets"/>
-		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\8.0\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\8.0\UserTools.proj"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
 		<ProjectExtensions>
 			<Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
 			<Borland.ProjectType>CppVCLApplication</Borland.ProjectType>

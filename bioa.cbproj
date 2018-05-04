@@ -27,11 +27,11 @@
 			<OutputExt>exe</OutputExt>
 			<ILINK_LibraryPath>src\util\;src\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
 			<IncludePath>src\util\;src\;$(IncludePath)</IncludePath>
-			<PackageImports>rtl.bpi;dbexpress.bpi;DataSnapProviderClient.bpi;DbxCommonDriver.bpi;vclx.bpi;vcl.bpi;vclactnband.bpi;vclimg.bpi;xmlrtl.bpi;DbxClientDriver.bpi;vclie.bpi;inet.bpi;IndyProtocols.bpi;inetdbbde.bpi;inetdbxpress.bpi;DataSnapIndy10ServerTransport.bpi;DataSnapClient.bpi;vcldb.bpi;dbrtl.bpi;dbxcds.bpi;dsnap.bpi;inetdb.bpi;IndySystem.bpi;IndyCore.bpi;bdertl.bpi;DataSnapServer.bpi;bcbie.bpi;bcbsmp.bpi;VclSmp.bpi;svnui.bpi;svn.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vcldbx.bpi;vcltouch.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;intrawebdb_110_150.bpi;Intraweb_110_150.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;tiledpkg.bpi;bcbshlctrls.bpi;pngcompd.bpi;pngcomp.bpi;dsnapcon.bpi;AzureCloud.bpi;L208_r140.bpi;marquee1.bpi;ledpkg.bpi;CodeSiteExpressVcl.bpi;Rave90VCL.bpi;RaizeComponentsVcl.bpi;RaizeComponentsVclDb.bpi;myPack.bpi</PackageImports>
+			<PackageImports>rtl.bpi;dbexpress.bpi;DataSnapProviderClient.bpi;DbxCommonDriver.bpi;vclx.bpi;vcl.bpi;vclactnband.bpi;vclimg.bpi;xmlrtl.bpi;DbxClientDriver.bpi;vclie.bpi;inet.bpi;IndyProtocols.bpi;inetdbbde.bpi;inetdbxpress.bpi;DataSnapIndy10ServerTransport.bpi;DataSnapClient.bpi;vcldb.bpi;dbrtl.bpi;dbxcds.bpi;dsnap.bpi;inetdb.bpi;IndySystem.bpi;IndyCore.bpi;bdertl.bpi;DataSnapServer.bpi;bcbie.bpi;bcbsmp.bpi;VclSmp.bpi;svnui.bpi;svn.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vcldbx.bpi;vcltouch.bpi;vclib.bpi;ibxpress.bpi;adortl.bpi;intrawebdb_110_150.bpi;Intraweb_110_150.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;tiledpkg.bpi;bcbshlctrls.bpi;pngcompd.bpi;pngcomp.bpi;dsnapcon.bpi;AzureCloud.bpi;L208_r140.bpi;marquee1.bpi;ledpkg.bpi;CodeSiteExpressVcl.bpi;Rave90VCL.bpi</PackageImports>
 			<_TCHARMapping>wchar_t</_TCHARMapping>
 			<ProjectType>CppVCLApplication</ProjectType>
 			<Multithreaded>true</Multithreaded>
-			<AllPackageLibs>rtl.lib;vcl.lib;RaizeComponentsVcl.lib;vclx.lib</AllPackageLibs>
+			<AllPackageLibs>rtl.lib;vcl.lib;vclx.lib</AllPackageLibs>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
 			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE</DCC_UnitAlias>
 			<DynamicRTL>true</DynamicRTL>

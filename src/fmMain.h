@@ -1,5 +1,4 @@
 //---------------------------------------------------------------------------
-
 #ifndef fmMainH
 #define fmMainH
 //---------------------------------------------------------------------------
@@ -12,6 +11,8 @@
 #include <ToolWin.hpp>
 #include <ExtCtrls.hpp>
 #include <Buttons.hpp>
+#include <Graphics.hpp>
+
 //---------------------------------------------------------------------------
 class TForm10 : public TForm
 {
@@ -19,18 +20,11 @@ __published:	// IDE-managed Components
 	TToolBar *ToolBar1;
 	TToolButton *ToolButton1;
 	TToolButton *ToolButton2;
-	TImageList *ImageList1;
 	TToolButton *ToolButton3;
 	TToolButton *ToolButton4;
 	TToolButton *ToolButton5;
 	TToolButton *ToolButton6;
 	TPanel *Panel1;
-	TBitBtn *BitBtn1;
-	TBitBtn *BitBtn2;
-	TBitBtn *BitBtn3;
-	TBitBtn *BitBtn4;
-	TBitBtn *BitBtn5;
-	TBitBtn *BitBtn6;
 	TStatusBar *StatusBar1;
 	TPageControl *pcWorkArea;
 	TTabSheet *TabSheet4;
@@ -50,6 +44,15 @@ __published:	// IDE-managed Components
 	TTabSheet *TabSheet9;
 	TLabel *Label3;
 	TLabel *Label4;
+	TImageList *ImageList1;
+	TButton *Button1;
+	TButton *Button2;
+	TButton *Button3;
+	TButton *Button4;
+	TButton *Button5;
+	TButton *Button6;
+	TButton *Button7;
+	TButton *Button8;
 	void __fastcall ToolButton6Click(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall ToolButton1Click(TObject *Sender);
